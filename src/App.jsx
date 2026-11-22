@@ -22,7 +22,7 @@ function App() {
       <footer className="py-10" style={{ borderTop: '1px solid rgba(196,167,231,.14)' }}>
         <div className="mx-auto px-5 sm:px-8 text-center" style={{ maxWidth: 1100 }}>
           <p className="font-display font-bold text-lg mb-1">{'Farah El-sayed'}</p>
-          <p className="mono text-xs mb-4" style={{ color: 'var(--muted)' }}>Front-End Developer · React & Tailwind Specialist</p>
+          <p className="mono text-xs mb-4" style={{ color: 'var(--muted)' }}>Next.js & TypeScript Developer · SEO · Authorization · SSG / SSR / CSR</p>
           <SocialLinks variant="footer" />
           <p className="mono text-xs mt-5" style={{ color: '#5b6595' }}>© 2026 Farah El-sayed. All Rights Reserved.</p>
         </div>

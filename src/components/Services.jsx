@@ -27,9 +27,7 @@ export default function Services() {
               </div>
               <h3 className="font-display font-bold text-lg mb-2">{s.t}</h3>
               <p className="text-sm leading-7 mb-5" style={{ color: 'var(--muted)' }}>{s.d}</p>
-              <a href="#contact" className="mono text-[.8rem] font-semibold" style={{ color: 'var(--lav)' }}>
-                Learn more →
-              </a>
+             
             </motion.div>
           ))}
         </div>

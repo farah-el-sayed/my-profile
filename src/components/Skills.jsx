@@ -36,8 +36,7 @@ export default function Skills() {
       <div className="relative z-10 mx-auto px-5 sm:px-8" style={{ maxWidth: 1100 }}>
         <SectionHead num="02" sub="my stack" title="Skills & Expertise" />
         <p className="max-w-2xl -mt-6 mb-10 text-[.95rem] leading-7" style={{ color: 'var(--muted)' }}>
-          Technologies I use daily to ship fast, accessible interfaces.
-          Edit the levels in <span className="mono text-[.8rem]" style={{ color: 'var(--lav)' }}>src/data/profile.js</span> to match yours.
+          Technologies I use to build fast, accessible interfaces with SEO, authorization and SSG, SSR or CSR as needed.
         </p>
         <div className="skills-grid grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
           {skills.map((s, i) => <Bar key={s.name} s={s} i={i} />)}

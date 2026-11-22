@@ -5,15 +5,15 @@ import learnThetaImage from '../imag/learns.jfif';
 import mealifyImage from '../imag/meal.jfif';
 import organicChiImage from '../imag/orangics.jfif';
 import restaurantImage from '../imag/resturant.jfif';
-import tailNextImage from '../imag/tailnext.jfif';
+import tailnext from '../imag/tailnext.webp'
 import weatherImage from '../imag/weatherapps.jfif';
 
 export const profile = {
   name: 'Farah El-sayed',
   firstName: 'Farah',
-  role: 'Front-End Developer',
+  role: 'Front-End Developer — Next.js & TypeScript',
   heroLine1: 'Front-End Development',
-  heroLine2: 'with React & Modern Tech',
+  heroLine2: 'with Next.js & TypeScript',
   from: 'From Gaza, Palestine',
   location: 'Gaza, Palestine — Available Remotely',
   email: 'elsayedfarah746@gmail.com',
@@ -25,9 +25,9 @@ export const profile = {
     github: 'https://github.com/farah-el-sayed?tab=repositories',
   },
   aboutEn: [
-    "Hi, I'm Farah El-sayed from Palestine. I'm a Front-End Developer with expertise in building fast, responsive web applications and scalable user interfaces. I enjoy transforming ideas into innovative digital experiences through clean code and modern technologies.",
-    'I am currently working as a Front-End Developer at NexaTech Company, specializing in building scalable and high-performance web applications with React and Tailwind CSS. Experienced in component architecture, state management with Redux / Zustand, REST API integration, performance optimization, and pixel-perfect responsive design.',
-    'Previously, I worked as a Freelance Web Developer, building landing pages, dashboards and e-commerce interfaces with React, Firebase and modern tooling — collaborating with teams to deliver high-quality user experiences.',
+    "Hi, I'm Farah El-sayed from Palestine. I'm a Front-End Developer with expertise in Next.js, React, TypeScript, responsive interfaces and modern web architecture. I build fast, accessible experiences using SEO, authorization, and the right rendering strategy.",
+   
+    'Previously, I worked as a Freelance Web Developer, building landing pages, dashboards and e-commerce interfaces with Next.js, React, TypeScript, Firebase and modern tooling — collaborating with teams to deliver high-quality user experiences.',
   ],
   stats: [
     { value: '10+', label: 'Projects' },
@@ -42,39 +42,28 @@ export const profile = {
     { k: 'Status', v: 'Open to new projects' },
   ],
   servicesEn: [
-    { t: 'React Development', d: 'Complete SPAs with professional state management via Redux / Zustand.' },
+    { t: 'Next.js Development', d: 'Scalable applications with Next.js, TypeScript, App Router and professional state management.' },
     { t: 'Tailwind Design', d: 'Pixel-perfect responsive interfaces with dark mode and animation.' },
-    { t: 'Performance', d: 'Lazy loading, code splitting and technical SEO for 95+ Lighthouse.' },
+    { t: 'Performance & SEO', d: 'Technical SEO, lazy loading, code splitting and SSG, SSR or CSR for 95+ Lighthouse.' },
   ],
-  info: [
-    { k: 'الاسم', v: 'فرح السيد' },
-    { k: 'العمر', v: '22 سنة' },
-    { k: 'الدراسة', v: 'هندسة معلوماتية — اختصاص برمجيات' },
-    { k: 'الموقع', v: 'فلسطين / عمل عن بعد' },
-    { k: 'اللغات', v: 'العربية (أم) • الإنجليزية (جيد جداً)' },
-    { k: 'الحالة', v: 'متاح لمشاريع جديدة' },
-  ],
-  services: [
-    { t: 'تطوير React', d: 'بناء SPA متكاملة مع إدارة حالة احترافية بـ Redux / Zustand.' },
-    { t: 'تصميم Tailwind', d: 'واجهات متجاوبة pixel-perfect مع Dark Mode وأنيميشن.' },
-    { t: 'تحسين الأداء', d: 'Lazy loading و Code splitting و SEO تقني للوصول لـ 95+ Lighthouse.' },
-  ],
+  
+ 
 };
 
 export const services = [
   {
     t: 'Web Development',
-    d: 'Building fast, responsive websites and web apps using React, Tailwind CSS and modern JavaScript.',
+    d: 'Building fast, responsive websites and web apps using Next.js, React, TypeScript and Tailwind CSS.',
     icon: '◍',
   },
   {
     t: 'React Applications',
-    d: 'Skilled in component architecture, hooks, routing and state management with Redux / Zustand.',
+    d: 'Skilled in component architecture, hooks, routing, authorization and state management with Redux / Zustand.',
     icon: '⬡',
   },
   {
     t: 'Web Optimization',
-    d: 'Optimizing web applications for maximum speed, scalability, and seamless user experience across devices.',
+    d: 'Optimizing web applications for maximum speed, SEO, scalability and seamless user experience across devices.',
     icon: '⬢',
   },
 ];
@@ -139,9 +128,9 @@ export const works = [
 
   {
     title: 'TailNext Template',
-    image: tailNextImage,
+    image: tailnext,
     d: 'Production-ready web development template optimized for SEO, high page speed, and dark mode integration for SaaS and startup sites.',
-    tags: ['js', 'Tailwind'],
+    tags: ['Next.js', 'TypeScript', 'Tailwind', 'SEO'],
     grad: 'linear-gradient(135deg,#38bdf8,#C4A7E7)',
     link: 'https://tailnext-gamma.vercel.app/',
   },
@@ -170,7 +159,7 @@ export const experience = [
   {
     role: 'Front-End Developer ',
     
-    d: 'Building scalable React applications with Tailwind CSS, focusing on performance, accessibility and design systems.',
+    d: 'Building scalable Next.js and React applications with TypeScript and Tailwind CSS, focusing on performance, accessibility and design systems.',
   },
   {
     role: 'Freelance Web Developer',
@@ -186,14 +175,18 @@ export const experience = [
 
 export const skills = [
   { name: 'React.js', tag: 'Hooks · Router · State', level: 92 },
+  { name: 'Next.js', tag: 'App Router · Routing · Full Stack', level: 88 },
+  { name: 'TypeScript', tag: 'Types · Interfaces', level: 90 },
+  { name: 'SEO', tag: 'Metadata · Technical SEO · Performance', level: 88 },
+  { name: 'Authorization', tag: 'Roles · Protected Routes · Access Control', level: 85 },
+  { name: 'Rendering Strategies', tag: 'SSG · SSR · CSR', level: 87 },
   { name: 'JavaScript (ES6+)', tag: 'Async · Modules · DOM', level: 90 },
   { name: 'Tailwind CSS', tag: 'Responsive · Dark mode', level: 95 },
   { name: 'HTML5 & CSS3', tag: 'Semantic · Grid · Flex', level: 94 },
   { name: 'Framer Motion', tag: 'Gestures · Scroll reveals', level: 85 },
-  { name: 'TypeScript', tag: 'Types · Interfaces', level: 78 },
   { name: 'Redux / Zustand', tag: 'Stores · Middleware', level: 82 },
   { name: 'Git & GitHub', tag: 'Branching · PRs · CI', level: 88 },
   { name: 'Vite & Tooling', tag: 'Build · Deploy · Lint', level: 86 },
 ];
 
-export const tools = ['Vite', 'Figma', 'VS Code', 'Postman', 'Vercel', 'Netlify', 'Firebase', 'REST API'];
+export const tools = ['Next.js', 'TypeScript', 'Vite', 'Figma', 'VS Code', 'Postman', 'Vercel', 'Netlify', 'Firebase', 'REST API', 'SEO'];

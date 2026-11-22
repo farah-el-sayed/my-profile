@@ -2,12 +2,12 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence, useScroll, useSpring } from 'framer-motion';
 
 const links = [
-  { id: 'home', label: 'Home', href: '#home' },
-  { id: 'about', label: 'About', href: '#about' },
-  { id: 'services', label: 'Services', href: '#services' },
-  { id: 'skills', label: 'Skills', href: '#skills' },
-  { id: 'portfolio', label: 'Portfolio', href: '#portfolio' },
-  { id: 'contact', label: 'Contact', href: '#contact' },
+  { id: 'home', label: 'Home', href: '/home' },
+  { id: 'about', label: 'About', href: '/about' },
+  { id: 'services', label: 'Services', href: '/services' },
+  { id: 'skills', label: 'Skills', href: '/skills' },
+  { id: 'portfolio', label: 'Portfolio', href: '/portfolio' },
+  { id: 'contact', label: 'Contact', href: '/contact' },
 ];
 
 export default function Navbar() {
@@ -94,8 +94,8 @@ export default function Navbar() {
       >
         <nav className="mx-auto flex items-center justify-between px-4 sm:px-6 lg:px-8 h-16 sm:h-[72px] w-full max-w-7xl">
           <motion.a
-            href="#home"
-            onClick={(e) => goTo(e, { id: 'home', href: '#home' })}
+            href="/home"
+            onClick={(e) => goTo(e, { id: 'home', href: '/home' })}
             whileHover={{ scale: 1.06 }}
             whileTap={{ scale: 0.95 }}
             className="font-mono font-bold text-lg sm:text-xl lg:text-2xl tracking-tight select-none shrink-0"
@@ -120,8 +120,8 @@ export default function Navbar() {
           </ul>
           <div className="flex items-center gap-3">
             <motion.a
-              href="#contact"
-              onClick={(e) => goTo(e, { id: 'contact', href: '#contact' })}
+              href="/contact"
+              onClick={(e) => goTo(e, { id: 'contact', href: '/contact' })}
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
               className="btn-primary-glow hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-semibold text-sm text-[#0b1530]"
@@ -179,7 +179,7 @@ export default function Navbar() {
                   </motion.li>
                 ))}
                 <li className="pt-3 pb-1">
-                  <a href="#contact" onClick={(e) => goTo(e, { id: 'contact', href: '#contact' })} className="btn-primary-glow flex justify-center px-5 py-3.5 rounded-xl font-semibold text-sm text-[#0b1530] min-h-[48px] items-center touch-manipulation">
+                  <a href="/contact" onClick={(e) => goTo(e, { id: 'contact', href: '/contact' })} className="btn-primary-glow flex justify-center px-5 py-3.5 rounded-xl font-semibold text-sm text-[#0b1530] min-h-[48px] items-center touch-manipulation">
                     Hire Me
                   </a>
                 </li>

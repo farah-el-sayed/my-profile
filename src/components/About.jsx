@@ -38,7 +38,7 @@ export default function About() {
               </div>
               <h3 className="font-display mt-5 text-xl font-bold">{profile.name}</h3>
               <p className="mono text-[.8rem] mt-1" style={{ color: 'var(--lav)' }}>{profile.role}</p>
-              <p className="mono text-[.7rem] mt-1" style={{ color: 'var(--muted)' }}>React • Tailwind CSS • Framer Motion</p>
+              <p className="mono text-[.7rem] mt-1" style={{ color: 'var(--muted)' }}>Next.js • React • TypeScript • Tailwind CSS</p>
               <div className="mt-4 inline-flex items-center gap-2 px-3 py-1.5 rounded-full mono text-xs"
                 style={{ background: 'rgba(52,211,153,.1)', border: '1px solid rgba(52,211,153,.3)', color: '#34d399' }}>
                 <span className="w-2 h-2 rounded-full animate-pulse" style={{ background: '#34d399' }} />
